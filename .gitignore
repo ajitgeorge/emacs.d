@@ -1,2 +1,12 @@
 # Compiled
 *.elc
+
+# Emacs working dirs
+/elpa
+/backups
+/.smex-items
+/ac-comphist.dat
+/places
+
+# backup files
+*~
