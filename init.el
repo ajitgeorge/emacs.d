@@ -135,7 +135,7 @@
   (eval-after-load 'color-theme
     (progn
       (require 'color-theme-solarized)
-      (color-theme-solarized-light))) )
+      (color-theme-solarized-dark))) )
 
 ;; CUSTOM FUNCTIONS
 ;;--------------------------------------------------
