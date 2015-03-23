@@ -2,7 +2,6 @@
 *.elc
 
 # Emacs working dirs
-/elpa
 /backups
 /.smex-items
 /ac-comphist.dat
@@ -10,3 +9,6 @@
 
 # backup files
 *~
+
+ido.last
+
