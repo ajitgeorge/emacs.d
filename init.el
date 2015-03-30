@@ -34,3 +34,4 @@
 
 (load-theme (if (display-graphic-p) 'solarized-dark 'tango-dark))
 
+(global-set-key (kbd "C-x g") 'magit-status)
