@@ -35,3 +35,7 @@
 (load-theme (if (display-graphic-p) 'solarized-dark 'tango-dark))
 
 (global-set-key (kbd "C-x g") 'magit-status)
+
+(add-to-list 'load-path "~/.emacs.d/vendor/yaml-mode-0.0.11/")
+(require 'yaml-mode)
+(add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
