@@ -39,3 +39,7 @@
 (add-to-list 'load-path "~/.emacs.d/vendor/yaml-mode-0.0.11/")
 (require 'yaml-mode)
 (add-to-list 'auto-mode-alist '("\\.yml$" . yaml-mode))
+
+;; Enable windmove (shift+arrow key to move between windows)
+(when (fboundp 'windmove-default-keybindings)
+  (windmove-default-keybindings))
