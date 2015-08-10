@@ -43,3 +43,8 @@
 ;; Enable windmove (shift+arrow key to move between windows)
 (when (fboundp 'windmove-default-keybindings)
   (windmove-default-keybindings))
+
+
+;; Undo better-defaults' installation of hippie-expand
+(global-set-key (kbd "M-/") 'dabbrev-expand)
+(global-set-key (kbd "M-?") 'hippie-expand)
