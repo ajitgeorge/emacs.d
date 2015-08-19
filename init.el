@@ -48,3 +48,7 @@
 ;; Undo better-defaults' installation of hippie-expand
 (global-set-key (kbd "M-/") 'dabbrev-expand)
 (global-set-key (kbd "M-?") 'hippie-expand)
+
+;; IntelliJ build key
+(global-set-key (kbd "<C-f9>") 'compile)
+
