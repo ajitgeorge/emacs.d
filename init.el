@@ -52,3 +52,6 @@
 ;; IntelliJ build key
 (global-set-key (kbd "<C-f9>") 'compile)
 
+(add-to-list 'load-path "~/.emacs.d/vendor/")
+(require 'thrift-mode)
+
